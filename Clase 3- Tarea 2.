@@ -1,0 +1,19 @@
+package com.company;
+
+public class Main {
+    public static void main(String[] args){
+        Coche micoche = new Coche();
+        micoche.sumarpuerta();
+        System.out.println(micoche.puertas);
+    }
+    public static int suma(int a, int b){
+        return a + b;
+    }
+}
+
+class Coche {
+    public  int puertas = 4;
+    public void sumarpuerta(){
+        this.puertas++;
+    }
+}
