@@ -1,0 +1,78 @@
+//PUNTO NUMERO 1 [ IF ]
+package com.company;
+
+public class Main {
+    public static void main(String[] args) {
+        int numeroIf = 0;
+
+        if (numeroIf > 0) {
+        System.out.println("Es positivo");
+        } else if (numeroIf < 0) {
+            System.out.println("Es Negativo");
+        } else {
+            System.out.println("La variable es 0");
+        }
+        }
+    }
+//PUNTO NUMERO 2 [WHILE]
+package com.company;
+
+public class Main {
+    public static void main(String[] args) {
+        int numeroWhile = 0;
+        while (numeroWhile < 3){
+            System.out.println(numeroWhile);
+            numeroWhile = numeroWhile + 1;
+        }
+    }
+}
+//PUNTO NUMERO 3 [DO WHILE]
+package com.company;
+
+public class Main {
+    public static void main(String[] args) {
+        int numeroDoWhile = 1;
+        do {
+            System.out.println(numeroDoWhile);
+            numeroDoWhile = numeroDoWhile + 2;
+        } while (numeroDoWhile < 3);
+    }
+}
+
+//PUNTO NUMERO 4 [FOR]
+package com.company;
+
+public class Main {
+    public static void main(String[] args) {
+        int numeroFor;
+        for (numeroFor = 0;numeroFor <= 3; numeroFor = numeroFor +1){
+            System.out.println(numeroFor);
+        }
+    }
+}
+//PUNTO NUMERO 5 [SWITCH]
+package com.company;
+
+public class Main {
+    public static void main(String[] args) {
+        String estacion = "invierno";
+        switch (estacion) {
+            case "verano":
+                System.out.println("Es verano");
+                break;
+            case "otoño":
+                System.out.println("Es otoño");
+                break;
+            case "invierno":
+                System.out.println("Es invierno");
+                break;
+            case "primavera":
+                System.out.println("Es primavera");
+                break;
+            default:
+                System.out.println("Esta no es una estacion");
+        }
+    }
+}
+
+
