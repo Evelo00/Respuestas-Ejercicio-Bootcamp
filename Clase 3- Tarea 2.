@@ -1,3 +1,19 @@
+//Ejericio 1
+package com.company;
+
+public class Main {
+
+    public static void main(String[] args) {
+        int resultado = suma(5,6,7);
+        System.out.println(resultado);// write your code here
+    }
+
+    public static int suma(int a, int b, int c) {
+        return a + b + c;
+    }
+}
+
+//Ejercicio 2
 package com.company;
 
 public class Main {
